@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="TE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBox</title>
+    <script src="https://kit.fontawesome.com/cb88aa89d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<section id="header">
+    <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="product.html">Products</a></li>
+            <li><a href="ps.html">Playstation</a></li>
+            <li><a href="xbox.html">Xbox</a></li>
+            <li><a href="nintendo.html">Nintendo</a></li>
+        </ul>
+    </div>
+</section>
+
+<body>
+
+<article id="feedback_content">
+  <div class="section_bar"><h1>Feedback</h1></div>
+  <div class="feedback">
+    <h2>We'd love to hear from you!</h2>
+    <form action="mailto:friedpotatoes0101@gmail.com" method="post">
+      <table>
+        <tr>
+          <td>1.</td>
+          <td>Name*</td>
+          <td colspan="3"><input type="text" name="name" placeholder="Include your first and last name" maxlength="40" required></td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Email</td>
+          <td colspan="3">
+            <input type="text" name="email" maxlength="40">
+          </td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Phone*</td>
+          <td colspan="3">
+            <input type="text" name="phone" placeholder="(02)12345678" maxlength="12" required>
+          </td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Rating*</td>
+          <td colspan="3">
+            <select id="rating" name="rating" required>
+              <option value="1">1 - Poor</option>
+              <option value="2">2 - Fair</option>
+              <option value="3">3 - Good</option>
+              <option value="4">4 - Very Good</option>
+              <option value="5">5 - Excellent</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Comments*</td>
+          <td colspan="3"><textarea name="address" rows="3" cols="40" required></textarea></td>
+        </tr>
+      </table>
+      <p><input type="reset" value="Cancel"> <input type="submit" value="Submit Feedback"> </p>
+    </form>
+  </div>
+  <br><br><br><br><br>
+</article>
+
+<footer class="section-p1">
+    <div class="col">
+        <a href="index.html"></a><img src="img/logo.png" class="logo"  alt=""></a>
+        <h4>About</h4>
+        <a href="aboutus.html">About us</a>
+        <a href="aboutus.html#vision">Our Vision</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+    <div class="col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="ps.html">Playstation</a>
+        <a href="xbox.html">Xbox</a>
+        <a href="nintendo.html">Nintendo</a>
+    </div>
+    <div class="col">
+        <h4>Playstation</h4>
+        <a href="ps.html">Playstation</a>
+    </div>
+    <div class="col">
+        <h4>Xbox</h4>
+        <a href="xbox.html">Xbox</a>
+    </div>
+    <div class="col">
+        <h4>Nintendo</h4>
+        <a href="nintendo.html">Nintendo</a>
+    </div>
+</footer>
+</body>
+</html>
